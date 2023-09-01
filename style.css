@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+#superior-menu{
+    background-image: url(images/backgroud-image.svg);
+    background-size: 100%;
+    color: white;
+}
+
+#logo{
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#superior-menu-title{
+    margin-top: 50px;
+    margin-left: 172px;
+    margin-bottom: 30px;
+}
+
+#superior-menu-text{
+    margin-left: 172px;
+    padding-bottom: 151px;
+}
+
+#menu-informativo{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icons{
+    margin: 50px 20px 50px 172px; 
+    padding: 10px;
+}
+
+.text-informativo{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+#video-section{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 77px 50px 77px 172px;
+}
+
+#text-section{
+    margin-top: 97px;
+}
+
+#title-section{
+    font-weight: 700;
+    font-size: 25px;
+    color: #247BA0;
+    margin-bottom: 20px;
+}
+
+#carousel{
+    background-color: #247BA0;
+}
+
+#carousel-title{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#card-section{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0 33px 0 172px;
+    padding-bottom: 80px;
+}
+
+#bruna{
+    display: none;
+}
+
+#left-arrow{
+    display: none;
+    margin-top: 62px;
+}
+
+.arrows{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.arrows:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+#form{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-title{
+    margin-top: 22px;
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+
+input{
+    background-color: #EAECE5;
+    width: 413px;
+    height: 53px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 39px;
+    padding-left: 20px;
+}
+
+button{
+    background-color: #247BA0;
+    color: #EAECE5;
+    width: 335px;
+    height: 53px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 107px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4499bd;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0 5px 5px #565a5a79;
+}
